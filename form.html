@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_min.css">            
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <title>HTML Academy: Техномарт</title>
+  </head>
+
+  <body>
+    <main>
+      <form class="backending_form" action="https://echo.htmlacademy.ru" method="post">
+        <button class="close"></button>         
+          <div class="answer_field">
+            <div class="answer_top">
+              <div class="write"> 
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Имя Фамилия" required>
+              </div> 
+              <div class="write">
+                <label>Ваш e-mail:
+                <input type="email" name="email" placeholder="email@example.com" required></label>
+              </div>
+            </div>
+            <label>Текст письма: 
+              <textarea class="comment" name="comment" id="comment_field" rows="5" cols="10" placeholder="В свободной форме" required></textarea>
+            </label> 
+          </div>
+        <div class="send">
+          <button class="submit_but link" type="submit">Отправить</button>
+        </div>       
+      </form>     
+    </main>     
+  </body>
+</html>
