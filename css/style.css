@@ -419,7 +419,7 @@ width: 100%;
 .main_navigation {    
   display: flex;
   justify-content: space-between;
-  height: 55px;   
+  min-height: 55px;   
   background-color: #32425c;
   border-bottom: 5px solid #293449;
 }
